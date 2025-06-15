@@ -1,0 +1,25 @@
+.load-app-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 462px;
+    background-color: #FFC501;
+}
+h2 {
+    font-weight: 700;
+    font-size: 62px;
+    margin: auto;
+}
+.app-sign-container {
+    display: flex;
+    gap: 125px;
+}
+
+.app-sign-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 125px;
+}

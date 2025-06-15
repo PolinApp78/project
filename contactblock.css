@@ -1,0 +1,30 @@
+.float-contact-box {
+   width: 100vw;
+    height: 404px;
+    background-color: #0578FF;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.float-element {
+    width: 640px;
+    height: 397px;
+    background-color: white;
+    border: 1px solid #20202080;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.float-element h2,p {
+    padding-left: 0;
+    text-align: center;
+
+}
+.float-element span {
+    font-size: 28px;
+    line-height: 140%;
+}

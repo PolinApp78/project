@@ -1,0 +1,229 @@
+/* Общий бокс для контента */
+.main-box {
+    display: flex;
+    background: linear-gradient(#F5F5F5, #DDECFF, #F5F5F5);
+    width: 100vw;
+    /*height: 100vh;*/
+
+    align-items: start;
+
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 64px;
+    padding-bottom: 128px;
+
+}
+
+
+.main-left-content {
+    display: flex;
+    width: 50%;
+    justify-content: start;
+    /*height: 650px;*/
+
+}
+.main-text-content {
+    display: flex;
+    width: 640px;
+    justify-content: center;
+    flex-direction: column;
+    border:  1px solid red;
+}
+
+h1 + p {
+    text-align: left;
+}
+.main-right-content {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 640px;
+    height: 34px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+
+/* Бокс выбора количества гостей */
+.guests {
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+/* Бокс выбора количества гостей */
+
+.main-img {
+    width: 640px;
+    height: 704px;
+}
+
+
+.btn-find-ride {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0578FF;
+    width: 640px;
+    height: 62px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+.place-box, .date-box {
+    width: 640px;
+    height: 61px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-sec {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.place-box, .date-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 89px;
+
+}
+.place, .date {
+    position: relative;
+
+
+}
+.high-label {
+    position: absolute;
+    /*left: 10px;*/
+    top: -36px;
+}
+.place-input, .date-input {
+    /*box-sizing: border-box;*/
+    width: 304px;
+    height: 53px;
+    border-radius: 10px;
+    /*padding-left: 24px;*/
+    /*padding-right: 24px;*/
+    /*padding-bottom: 16px;*/
+    /*padding-top: 16px;*/
+
+}
+.place-input::-webkit-input-placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #90A3BF;
+}
+
+.main-text-content h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+/* Сброс стандартного оформления чекбокса */
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    /* базовые стили для кастомного оформления */
+    width: 18px;
+    height: 18px;
+    background-color: #90A3BF80;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+}
+
+/* Стили для состояния "отмечено" */
+input[type="radio"]:checked {
+    /* стили для выбранного состояния */
+
+    width: 18px;
+    height: 18px;
+    border: 6px solid #0d6efd;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+
+
+
+}
+
+/* Стили для состояния "отключено" */
+/*input[type="radio"]:disabled {*/
+/*    !* стили для отключённого состояния *!*/
+/*    filter: none;*/
+/*    opacity: 0.5;*/
+/*    cursor: not-allowed;*/
+/*}*/
+
+
+.radio {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    /*line-height: 100%;*/
+    font-weight: 400;
+    padding-left: 6px;
+}
+.radio-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5px;
+
+}
+
+.guest-sign {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 140%;
+    font-weight: 600;
+
+    color: #0578FF;
+}
+.guests-img {
+    padding-top: 5px;
+}
+
+
+@media (min-width: 769px) {
+
+    .radio {
+        line-height: 100%;
+    }}

@@ -1,0 +1,316 @@
+@media (max-width: 360px) {
+    /*header*/
+    .logo-box {
+        /*width: 100%;*/
+        justify-content: left;
+        width: 245px;
+    }
+
+
+    .logo {
+        max-width: 73px;
+        max-height: 34px;
+    }
+
+    .navigator {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border: 1px solid black;
+        padding-right: 0px;
+    }
+
+
+        header {
+            justify-content: space-between;
+            padding: 20px;
+
+        }
+        .logo-box img {
+            width: 73px;
+            height: 30px;
+        }
+        .logo-text {
+            display: none;
+        }
+
+
+
+
+
+    /*main block*/
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 11px;
+    }
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+    .main-box {
+
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24px;
+
+
+
+    }
+
+    .main-left-content {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: left;
+        /*min-height: 883px;*/
+    }
+
+    .main-right-content {
+        display: none;
+    }
+    .main-text-content {
+        width: 320px;
+        align-self: start;
+    }
+    h1 + p {
+        width: 320px;
+        text-align: left;
+    }
+
+    .place-box, .date-box, .form-container {
+        width: 320px;
+        align-self: start;
+
+    }
+    .place-box, .date-box {
+          flex-direction: column;
+          /*gap: 60px;*/
+          min-height: 202px;
+      }
+
+    .date-box {
+        gap: 24px;
+        justify-content: center;
+    }
+    .place-box {
+        gap: 60px;
+        justify-content: end;
+    }
+
+.wrapper-sec {
+
+    justify-content: start;
+}
+
+.btn-find-ride {
+    width: 320px;
+}
+
+.radio {
+    padding-left: 0;
+
+}
+
+
+    /*benefits block*/
+    .benefits-box {
+        flex-wrap: wrap;
+        /*height: 259px;*/
+        gap: 24px;
+        padding-left: 23px;
+        padding-right: 23px;
+        flex-direction: row-reverse;
+
+    }
+
+    .benefits-text {
+        width: 137px;
+        font-size: 16px;
+    }
+
+    .benefits-element {
+        width: 137px;
+        box-sizing: border-box;
+
+    }
+
+    h3 {
+        font-size: 40px;
+        padding-bottom: 0;
+    }
+
+
+
+
+
+
+
+    /*gallery block*/
+    .gallery {
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        padding-right: 20px;
+
+    }
+
+
+
+    .gallery-img1 img {
+        height: 320px;
+        width: 320px;
+
+    }
+
+    .gallery-img2 img {
+        width: 320px;
+        height: 209px;
+
+    }
+    .gallery-img5 img {
+        height: 472px;
+        width: 320px;
+    }
+
+    .gallery-img4 img {
+        height: 637px;
+        width: 320px;
+    }
+    .gallery-img3 img {
+        width: 320px;
+        height: 141px;
+    }
+
+
+
+    .gallery-right {
+        width: 320px;
+    }
+
+    .gallery-box {
+        padding-left: 20px;
+    }
+    .gallery-left {
+        width: 320px;
+    }
+    .gallery-inline {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .gallery-text {
+        width: 320px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*apps block*/
+    .app-text {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .load-app-box {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .app-sign-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .app-sign-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .first-sign-app {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-sign-app img {
+        width: 213px;
+        height: 65px;
+    }
+
+    /*faq block */
+    .faq-wrapper {
+        padding-top: 121px;
+        padding-left: 32px;
+        padding-right: 32px;
+        justify-content: left;
+
+    }
+
+    .faq-box {
+        width: 704px;
+    }
+
+    .faq-plus {
+        right: 32px;
+    }
+
+    h6 + p {
+        width: 704px;
+        padding-right: 64px;
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .faq-text {
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+
+    /*footer*/
+    .info-box {
+        flex-direction: column;
+        align-items: start;
+        padding-left: 32px;
+        gap: 32px;
+
+    }
+
+    .footer-left-content {
+        height: 51px;
+    }
+
+    .footer-list {
+        padding: 0;
+    }
+
+
+}

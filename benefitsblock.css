@@ -1,0 +1,39 @@
+.benefits-box {
+    width: 100vw;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0578FF;
+    padding-right: 64px;
+    padding-left: 64px;
+    box-sizing: border-box;
+}
+
+
+
+
+.benefits-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*text-align: center;*/
+  /*padding: 40px;*/
+
+}
+h3 {
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.benefits-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}

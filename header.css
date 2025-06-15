@@ -1,0 +1,56 @@
+header {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+
+    width: 100vw;
+    /*height: 50%;*/
+    height: 116px;
+
+    display: flex;
+
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* background: linear-gradient(#F5F5F5, #DDECFF, #F5F5F5); */
+
+    background-color: #F5F5F5;
+
+    padding-top: 20px;
+    
+
+}
+
+.logo-box {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 5%;
+
+
+}
+.logo-text {
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.navigator {
+
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.menu {
+    display: none;
+padding-right: 64px;
+}
+.menu img {
+    max-width: 30px;
+    max-height: 24px;
+}
