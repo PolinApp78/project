@@ -236,13 +236,6 @@ input[type="radio"]:checked {
 }
 
 
-@media (min-width: 769px) {
-
-    .radio {
-        line-height: 100%;
-    }}
-
-
 .date-box {
     position: relative;
 
@@ -253,5 +246,28 @@ input[type="radio"]:checked {
     top: 65px;
     width: 640px;
     display: none;
+
+
+}
+.justdateImg img {
+    width: 640px;
+
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/*@media (min-width: 769px) {*/
+
+/*    .radio {*/
+/*        line-height: 100%;*/
+/*    }}*/

@@ -147,12 +147,15 @@
 
     #justdate {
 
-        width: var(--input-width);
+        width: 320px;
         top: 75px;
         left: 20px;
 
     }
+    .justdateImg img {
+        width: 320px;
 
+    }
 
 
 

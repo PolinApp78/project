@@ -21,8 +21,6 @@
         justify-content: end;
         align-items: center;
 
-
-
     }
 
 
@@ -48,7 +46,16 @@
         display: none;
     }
 
+    .justdateImg img {
+        width: 640px;
+    }
 
+
+
+
+
+
+    /*benfits*/
     .benefits-box {
         min-height: 380px;
     }

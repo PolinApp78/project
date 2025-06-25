@@ -45,23 +45,23 @@ let dateImgRet = document.getElementById('dateImgRet');
 
 
 departbtn.addEventListener('focus', function () {
-    justDate.setAttribute('style', 'display: flex; justify-content: center;');
+    justDate.setAttribute('style', 'display: flex; justify-content: center; flex-grow: 0; flex-shrink: 0;');
 });
 
 returnbtn.addEventListener('focus', function () {
-    justDate.setAttribute('style', 'display: flex; justify-content: center;');
+    justDate.setAttribute('style', 'display: flex; justify-content: center; flex-grow: 0; flex-shrink: 0;');
 });
 
 
 departbtn.addEventListener('blur', function () {
-    justDate.setAttribute('style', 'display: none;');
+    justDate.removeAttribute('style', 'display: flex; justify-content: center; flex-grow: 0; flex-shrink: 0;');
     if (departbtn.value != '') {
         dateImgDep.setAttribute('style', 'display: none;');
     }
 });
 
 returnbtn.addEventListener('blur', function () {
-    justDate.setAttribute('style', 'display: none;');
+    justDate.removeAttribute('style', 'display: flex; justify-content: center; flex-grow: 0; flex-shrink: 0;');
     if (returnbtn.value != '') {
         dateImgDep.setAttribute('style', 'display: none;');
     }
