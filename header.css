@@ -2,32 +2,36 @@ header {
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
-
-    width: 100vw;
-    /*height: 50%;*/
-    height: 116px;
-
     display: flex;
-
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0;
     box-sizing: border-box;
-    
-    /* background: linear-gradient(#F5F5F5, #DDECFF, #F5F5F5); */
-
     background-color: #F5F5F5;
-
-    padding-top: 20px;
-    
 
 }
 
+.header-content-wrapper {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 116px;
+    box-sizing: border-box;
+
+}
+
+
 .logo-box {
-    width: 50%;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-left: 5%;
+    padding-left: 64px;
+    box-sizing: border-box;
+
+
 
 
 }
@@ -38,7 +42,7 @@ header {
 
 .navigator {
 
-    width: 50%;
+    width: 50vw;
 
     display: flex;
     align-items: center;
@@ -53,4 +57,29 @@ padding-right: 64px;
 .menu img {
     max-width: 30px;
     max-height: 24px;
+}
+.close-nav {
+    display: none;
+    padding-right: 64px;
+
+}
+.newNav {
+    display: none;
+    width: 100vw;
+    height: 909px;
+    background-color: #0578FF;
+    position: fixed;
+    top: 116px;
+    z-index: 1000;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    padding-top: 128px;
+    gap: 96px;
+
+}
+.newNav div {
+    padding-left: 32px;
+
 }

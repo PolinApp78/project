@@ -3,12 +3,15 @@ body {
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
-    /* background: linear-gradient(#F5F5F5, #DDECFF, #F5F5F5); */
+    box-sizing: border-box;
     
    
     
 }
 
+main {
+    padding-left: 0;
+}
 
 p {
         font-weight: 400;
@@ -23,36 +26,3 @@ h1 {
 }
 
 
-
-/* 
-.benefits-box {
-    background-color: #0578FF;
-    width: 100%;
-    height: 20%;
-    min-height: 200px;
-}
-
-.gallery-box {
-    background-color: #DDECFF;
-    width: 100vw;
-    min-height: 1000px;
-    
-}
-
-.load-app-box {
-    background-color: #FFC501;
-    width: 100vw;
-    min-height: 500px;
-}
-
-.info-box {
-    background-color: #0578FF;
-    width: 100vw;
-    min-height: 1000px;
-    
-}
-
-
-
-
- */

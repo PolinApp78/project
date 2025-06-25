@@ -5,9 +5,9 @@
     align-items: center;
     background-color: white;
     width: 100vw;
-    /*height: 100vh;*/
     padding-bottom: 249px;
     padding-top: 128px;
+    margin-right: 0;
 }
 .faq-wrapper h2 {
     margin-top: 0;
@@ -15,8 +15,10 @@
 }
 .faq-box {
     background-color: white;
-    width: 1086px;
-    /*height: 570px;*/
+    padding-left: 177px;
+    padding-right: 177px;
+
+
 }
 .faq-box-p {
 
@@ -28,22 +30,43 @@ h6 {
     font-size: 18px;
     margin-bottom: 0;
     margin-top: 0;
+    padding-top: 16px;
+    padding-bottom: 18px;
+
 }
 
 .faq-plus {
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
-    position: absolute;
-    right: 177px;
-
-
 }
 
-h6 + p {
+.fap-p {
     text-align: left;
     line-height: 140%;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0;
+    padding-right: 16px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.h6-container {
+position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: calc(1086/1440*100vw);
+
+
+}
+
+#close-faq1, #close-faq2, #close-faq3, #close-faq4, #close-faq5, #close-faq6 {
+    display: none;
+}
+
+.border-line {
+    height: 1px;
+    background-color: #20202080;
+    margin-right: 30px;
 }

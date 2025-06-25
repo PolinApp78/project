@@ -1,9 +1,7 @@
 @media (max-width: 360px) {
-    /*header*/
     .logo-box {
-        /*width: 100%;*/
+        width: 100%;
         justify-content: left;
-        width: 245px;
     }
 
 
@@ -20,14 +18,20 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        border: 1px solid black;
-        padding-right: 0px;
+        padding-right: 0;
     }
 
 
         header {
             justify-content: space-between;
-            padding: 20px;
+
+        }
+        .logo-box {
+            padding-left: 0;
+        }
+        .header-content-wrapper {
+            padding-left: 20px;
+            padding-right: 20px;
 
         }
         .logo-box img {
@@ -38,11 +42,16 @@
             display: none;
         }
 
+    .newNav {
 
+        font-size: 32px;
+        gap: 64px;
+        padding-top: 64px;
 
-
-
-    /*main block*/
+    }
+    .newNav div {
+        padding-left: 20px;
+    }
     h1 {
         font-size: 32px;
     }
@@ -50,28 +59,36 @@
         font-size: 11px;
     }
 
-main {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
+.close-nav {
+    padding-right: 0;
 }
 
+    /*main block*/
+
+    :root {
+        --input-width: 320px;
+    }
+
+
     .main-box {
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+
+    .main-content-wrapper {
 
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 24px;
 
-
-
     }
 
     .main-left-content {
         width: 100%;
-        padding-left: 0;
+        padding-left: 20px;
         padding-right: 0;
         justify-content: left;
-        /*min-height: 883px;*/
     }
 
     .main-right-content {
@@ -93,7 +110,6 @@ main {
     }
     .place-box, .date-box {
           flex-direction: column;
-          /*gap: 60px;*/
           min-height: 202px;
       }
 
@@ -117,12 +133,33 @@ main {
 
 .radio {
     padding-left: 0;
+    font-size: 12px;
+    font-weight: 400;
 
 }
 
 
+    .form-container {
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+
+    #justdate {
+
+        width: var(--input-width);
+        top: 75px;
+        left: 20px;
+
+    }
+
+
+
+
     /*benefits block*/
-    .benefits-box {
+
+
+    .benefits-content-wrapper {
         flex-wrap: wrap;
         /*height: 259px;*/
         gap: 24px;
@@ -133,12 +170,10 @@ main {
     }
 
     .benefits-text {
-        width: 137px;
         font-size: 16px;
     }
 
     .benefits-element {
-        width: 137px;
         box-sizing: border-box;
 
     }
@@ -148,7 +183,9 @@ main {
         padding-bottom: 0;
     }
 
-
+    .place-input, .date-input {
+        width: 320px;
+    }
 
 
 
@@ -158,7 +195,7 @@ main {
     .gallery {
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: start;
         padding-right: 20px;
 
     }
@@ -213,21 +250,14 @@ main {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     /*apps block*/
+
     .app-text {
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        width: calc(290/360*100vw);
+        padding-top: 32px;
+
     }
 
     .load-app-box {
@@ -235,6 +265,7 @@ main {
         justify-content: center;
         align-items: center;
         gap: 30px;
+        height: 400px;
     }
 
     .app-sign-container {
@@ -243,6 +274,7 @@ main {
         justify-content: center;
         align-items: center;
         gap: 30px;
+        padding-bottom: 32px;
     }
 
 
@@ -250,7 +282,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
     }
 
@@ -261,46 +293,89 @@ main {
     }
 
     .first-sign-app img {
-        width: 213px;
-        height: 65px;
+        width: calc(167.85/360*100vw);
+
     }
+    .huawey img {
+        width: calc(165.31/360*100vw);
+    }
+    .appstore img {
+        width: calc(148.36/360*100vw);
+    }
+
 
     /*faq block */
     .faq-wrapper {
-        padding-top: 121px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-top: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
         justify-content: left;
 
     }
 
     .faq-box {
-        width: 704px;
+        width: 320px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .faq-plus {
         right: 32px;
     }
 
-    h6 + p {
-        width: 704px;
-        padding-right: 64px;
+    .faq-p {
+        width: calc(320/360*100vw);
+        padding-right: 20px;
         text-align: left;
         box-sizing: border-box;
+        font-size: 16px;
+    }
+    .h6-container {
+        font-size: 18px;
+        width: calc(320/360*100vw);
     }
 
     .faq-text {
         margin-bottom: 40px;
         margin-top: 0;
+        font-size: 64px;
+    }
+    .border-line {
+        margin-right: 0;
+    }
+
+
+    /*float-contact-box*/
+
+    .float-element {
+        width: calc(320/360*100vw);
+    }
+    .float-content h2 {
+        font-size: 36px;
+    }
+    .float-content p {
+        font-size: 20px;
     }
 
 
     /*footer*/
+
+    .logo-box-footer {
+        margin-left: 0;
+    }
     .info-box {
         flex-direction: column;
         align-items: start;
-        padding-left: 32px;
-        gap: 32px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 24px;
+
+    }
+    .footer-right-content {
+        flex-wrap: wrap;
+        width: calc(320/360*100vw);
+        gap: 24px;
+
 
     }
 
@@ -310,7 +385,35 @@ main {
 
     .footer-list {
         padding: 0;
+        width: 140px;
+        white-space: nowrap
     }
+
+    .footer-list li {
+        font-size: 16px;
+
+
+    }
+    .footer-list h6 {
+        font-size: 20px;
+    }
+
+    .footer-list {
+        margin: 0;
+        padding: 0;
+    }
+
+.f-last {
+    width: calc(326/360*100vw);
+
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 40px;
+
+
+
+}
 
 
 }

@@ -1,0 +1,79 @@
+#parentArr, #parentDep {
+    position: relative;
+}
+#Dep, #Arr {
+
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+
+}
+
+#parentDep ul, #parentArr ul {
+    position: absolute;
+    margin-top: 12px;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    max-height: 100px;
+    min-height: 30px;
+    z-index: 999;
+
+}
+#parentArr li, #parentDep li {
+    padding: 5px;
+    background-color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+#parentArr li:hover {
+    border: 1px solid #0578FF;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#parentDep li:hover {
+    border: 1px solid #0578FF;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#listDep, #listArr {
+
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    box-sizing: border-box;
+
+
+
+}
+
+
+#listArr::-webkit-scrollbar  {
+    display: none;
+}
+#listDep::-webkit-scrollbar  {
+    display: none;
+}
+
+
+#newText, #newTextDep {
+    position: absolute;
+
+    top: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #0578FF;
+}
+#DepSpan, #ArrSpan {
+    position: relative;
+
+}
+.place-input {
+    position: relative;
+}

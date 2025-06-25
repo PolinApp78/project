@@ -2,15 +2,21 @@
     width: 100vw;
     height: 224px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #0578FF;
+    margin: 0;
+}
+
+.benefits-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
     padding-right: 64px;
     padding-left: 64px;
     box-sizing: border-box;
 }
-
-
 
 
 .benefits-element {
@@ -18,10 +24,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /*text-align: center;*/
-  /*padding: 40px;*/
-
 }
 h3 {
     font-weight: 700;
