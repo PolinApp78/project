@@ -50,6 +50,8 @@ h6 {
     padding-right: 16px;
     box-sizing: border-box;
     display: none;
+    width: calc(1086/1440*100vw);
+
 }
 
 .h6-container {

@@ -1,12 +1,12 @@
 /* Общий бокс для контента */
 :root {
-    --input-width: 304px;
+    --input-width: calc(304/640*100vw);
 }
 .main-box {
     display: flex;
     background: linear-gradient(#F5F5F5, #DDECFF, #F5F5F5);
     width: 100vw;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     margin: 0;
 }
@@ -17,10 +17,14 @@
     /*width: 100vw;*/
     /*align-items: center;*/
     /*justify-content: center;*/
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-top: 64px;
-    padding-bottom: 128px;
+    /*padding-left: 64px;*/
+    /*padding-right: 64px;*/
+    /*padding-top: 64px;*/
+    /*padding-bottom: 128px;*/
+    padding-left: calc(64/1440*100vw);
+    /*padding-right: calc(64/640*100vw);*/
+    padding-top: calc(64/1440*100vw);
+    padding-bottom: calc(128/1440*100vw);
 }
 
 
@@ -34,7 +38,8 @@
 }
 .main-text-content {
     display: flex;
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
     justify-content: center;
     flex-direction: column;
 
@@ -57,7 +62,8 @@ h1 + p {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
 
     height: 34px;
     padding: 5px;
@@ -83,7 +89,8 @@ h1 + p {
 /* Бокс выбора количества гостей */
 
 .main-img {
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
     height: 704px;
 }
 
@@ -92,7 +99,8 @@ h1 + p {
 
     border-radius: 10px;
     background-color: #0578FF;
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
     height: 62px;
     padding: 10px;
     font-weight: 700;
@@ -107,7 +115,8 @@ h1 + p {
 
 }
 .place-box, .date-box {
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
     height: 61px;
 
     border-radius: 10px;
@@ -123,7 +132,8 @@ h1 + p {
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
 }
 .place-box, .date-box {
     display: flex;
@@ -144,7 +154,8 @@ h1 + p {
 }
 .place-input, .date-input {
 
-    width: 304px;
+    /*width: 304px;*/
+    width: calc(304/1440*100vw);
     height: 53px;
     border-radius: 10px;
     padding: 0;
@@ -244,13 +255,15 @@ input[type="radio"]:checked {
     position: absolute;
     z-index: 100;
     top: 65px;
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
     display: none;
 
 
 }
 .justdateImg img {
-    width: 640px;
+    /*width: 640px;*/
+    width: calc(640/1440*100vw);
 
 
 }

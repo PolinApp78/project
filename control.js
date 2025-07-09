@@ -45,7 +45,7 @@ let dateImgRet = document.getElementById('dateImgRet');
 
 
 departbtn.addEventListener('focus', function () {
-    justDate.setAttribute('style', 'display: flex; justify-content: center; flex-grow: 0; flex-shrink: 0;');
+    justDate.setAttribute('style', 'display: flex; justify-content: center; flex-grow: 0; flex-shrink: 0;)');
 });
 
 returnbtn.addEventListener('focus', function () {

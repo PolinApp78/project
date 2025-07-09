@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 560px) {
     .logo-box {
         width: 100%;
         justify-content: left;
@@ -63,30 +63,41 @@
     padding-right: 0;
 }
 
+
+
+
     /*main block*/
 
     :root {
-        --input-width: 320px;
+        /*--input-width: 320px;*/
+        --input-width: calc(320/360*100vw);
+
     }
 
 
     .main-box {
-    padding-right: 20px;
+
     box-sizing: border-box;
+
+
+
+        );
 
 }
 
     .main-content-wrapper {
 
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 24px;
+        /*padding-left: 20px;*/
+        /*padding-top: 24px;*/
+        padding-left: calc(20/360*100vw);
+        padding-top: calc(24/360*100vw);
+
 
     }
 
     .main-left-content {
         width: 100%;
-        padding-left: 20px;
+
         padding-right: 0;
         justify-content: left;
     }
@@ -99,12 +110,15 @@
         align-self: start;
     }
     h1 + p {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
         text-align: left;
     }
 
     .place-box, .date-box, .form-container {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
+
         align-self: start;
 
     }
@@ -125,6 +139,7 @@
 .wrapper-sec {
 
     justify-content: start;
+    width: calc(320/360*100vw);
 }
 
 .btn-find-ride {
@@ -147,20 +162,26 @@
 
     #justdate {
 
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
         top: 75px;
         left: 20px;
 
     }
     .justdateImg img {
-        width: 320px;
+        width: calc(320/360*100vw);
 
+    }
+    .place-input, .date-input {
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
+    }
+    .btn-find-ride {
+        width: calc(320/360*100vw);
     }
 
 
-
     /*benefits block*/
-
 
     .benefits-content-wrapper {
         flex-wrap: wrap;
@@ -179,6 +200,11 @@
     .benefits-element {
         box-sizing: border-box;
 
+
+    }
+
+    .benefits-element {
+        width: calc(140/360*100vw);
     }
 
     h3 {
@@ -186,9 +212,7 @@
         padding-bottom: 0;
     }
 
-    .place-input, .date-input {
-        width: 320px;
-    }
+
 
 
 
@@ -199,7 +223,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-right: 20px;
+        /*padding-right: 20px;*/
 
     }
 
@@ -207,40 +231,48 @@
 
     .gallery-img1 img {
         height: 320px;
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
 
     }
 
     .gallery-img2 img {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
         height: 209px;
 
     }
     .gallery-img5 img {
         height: 472px;
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
     }
 
     .gallery-img4 img {
         height: 637px;
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
     }
     .gallery-img3 img {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
         height: 141px;
     }
 
 
 
     .gallery-right {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
     }
 
     .gallery-box {
-        padding-left: 20px;
+        /*padding-left: 20px;*/
+        padding-left: calc(20/360*100vw);
     }
     .gallery-left {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
     }
     .gallery-inline {
         flex-direction: column;
@@ -249,7 +281,8 @@
         font-size: 32px;
     }
     .gallery-text {
-        width: 320px;
+        /*width: 320px;*/
+        width: calc(320/360*100vw);
     }
 
 
@@ -420,3 +453,6 @@
 
 
 }
+
+
+
