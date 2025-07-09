@@ -1,6 +1,6 @@
 /* Общий бокс для контента */
 :root {
-    --input-width: calc(304/640*100vw);
+    --input-width: calc(304/1440*100vw);
 }
 .main-box {
     display: flex;

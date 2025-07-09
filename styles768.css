@@ -26,7 +26,12 @@
 
 
     /*main block*/
+    :root {
+        /*--input-width: 320px;*/
+        --input-width: calc(304/768*100vw);
 
+
+    }
 
     .main-content-wrapper {
         justify-content: start;
